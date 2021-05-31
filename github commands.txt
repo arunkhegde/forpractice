@@ -1,0 +1,51 @@
+Created repository in github
+git clone link:
+    git clone https://github.com/arunkhegde/forpractice.git clones an existing repository in github to our computer and folder is created in the same name.
+
+Enter the new folder created
+
+git add filename:
+    Add changes that can be commited
+    git add hello.html
+
+git commit -m "added Hello File":
+    commit that has been added. Doesnt save in server yet
+
+git status:
+    Whats happening
+
+git push:
+    pushes to server. Commit just saves within computer
+
+git commit -am:
+    commit and add at a same time. That is add all changed files.
+
+git pull:
+    Bring new version in github to computer
+
+git log:
+    what changes at what time
+
+git restore .:
+    restore from last commit not push
+
+git reset:
+    go back in version git reset --hard origin/master
+
+git branch:
+    check branches
+    git branch -D <name of branch> :Delete branch
+git checkout:
+    git checkout -b <name of branch> :create a branch and go there
+    git checkout <name of branch>:go to that branch 
+
+
+create branch commit
+then merge to master.
+
+git merge <branch name>:
+    merge commit with master commit
+
+note:
+if we push branch we will get error because github doesnt know we have a branch.
+So git push --set-upstream origin <branch name>.
